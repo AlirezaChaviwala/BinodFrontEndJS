@@ -1,0 +1,25 @@
+{
+    "name": "Dec-31st",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "serve": "webpack-dev-server"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "mongodb": "^3.6.4"
+    },
+    "devDependencies": {
+        "ts-loader": "^8.0.17",
+        "typescript": "^4.1.5",
+        "webpack": "^5.21.2",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.2"
+    }
+}
